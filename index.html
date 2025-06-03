@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>Admin-Panel</title>
 </head>
 <body>
@@ -64,6 +65,174 @@
         </nav>
     </header>
 
+    <main class="container my-3">
+        <div class="row">
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-primary shadow py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col">
+                                <div class="font-weight-bold text-primary text-uppercase mb-1">
+                                    Sale
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold">3.000 $</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-success shadow py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col">
+                                <div class="font-weight-bold text-primary text-uppercase mb-1">
+                                    Order
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold">125</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fa-solid fa-truck fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-warning shadow py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col">
+                                <div class="font-weight-bold text-primary text-uppercase mb-1">
+                                    Product
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold">215</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fa-solid fa-list fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-info shadow py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col">
+                                <div class="font-weight-bold text-primary text-uppercase mb-1">
+                                    Message
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold">435</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fa-solid fa-message fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="card shadow">
+                    <div class="card-header pb-0">
+                        <h5 class="card-title">Latest Orders</h5>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-bordered table-striped mb-0">
+                            <thead class="table-secondary">
+                                <tr>
+                                    <th>Order Id</th>
+                                    <th>Username</th>
+                                    <th>Total</th>
+                                    <th>Date</th>
+                                    <th>State</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>5</td>
+                                    <td>lena_rey</td>
+                                    <td>5000 $</td>
+                                    <td>10/10/2026</td>
+                                    <td>
+                                        <span class="badge bg-primary">Pending</span>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>sofia_dhan</td>
+                                    <td>2000 $</td>
+                                    <td>10/10/2026</td>
+                                    <td>
+                                        <span class="badge bg-primary">Pending</span>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>thony_stef</td>
+                                    <td>8000 $</td>
+                                    <td>10/10/2026</td>
+                                    <td>
+                                        <span class="badge bg-primary">Pending</span>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>clark_thon</td>
+                                    <td>4700 $</td>
+                                    <td>10/10/2026</td>
+                                    <td>
+                                        <span class="badge bg-primary">Pending</span>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>guida-ytun</td>
+                                    <td>5000 $</td>
+                                    <td>10/10/2026</td>
+                                    <td>
+                                        <span class="badge bg-primary">Pending</span>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
